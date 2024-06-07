@@ -1,4 +1,4 @@
-package org.sk.config;
+package org.sk.learningThread;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.task.TaskExecutorBuilder;

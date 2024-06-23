@@ -7,7 +7,7 @@ import java.util.Set;
 public class StockTicker {
 
     private final Set<StockObserver> observers;
-    private String stockSymbol;
+    private final String stockSymbol;
     private double stockPrice;
 
     public StockTicker(String stockSymbol) {

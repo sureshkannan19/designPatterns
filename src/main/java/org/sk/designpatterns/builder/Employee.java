@@ -4,15 +4,6 @@ public class Employee {
 
     private final Long id;
 
-    @Override
-    public String toString() {
-        return "Employee{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", company='" + company + '\'' +
-                '}';
-    }
-
     private final String name;
     private final String company;
 
@@ -32,6 +23,15 @@ public class Employee {
 
     public String getCompany() {
         return company;
+    }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", company='" + company + '\'' +
+                '}';
     }
 
     public static Builder builder() {

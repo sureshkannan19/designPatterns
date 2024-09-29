@@ -3,7 +3,6 @@ package org.sk.designpatterns.builder;
 public class Employee {
 
     private final Long id;
-
     private final String name;
     private final String company;
 
@@ -11,18 +10,6 @@ public class Employee {
         this.id = builder.id;
         this.name = builder.name;
         this.company = builder.company;
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public String getCompany() {
-        return company;
     }
 
     @Override
